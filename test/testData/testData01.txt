@@ -1,0 +1,20 @@
+abc abc abc  abc aabbcc   0123
+abc,abc, abc,  abc, aabbcc,   0123
+
+i like cat
+cat
+blackcat
+blackCat 
+
+abcAbc
+AbcAbc
+
+abc_abc
+abc_Abc
+Abc_abc
+Abc_Abc
+
+abc-abc
+abc-Abc
+Abc-abc
+Abc-Abc

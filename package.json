@@ -1,0 +1,82 @@
+{
+  "name": "sandbox",
+  "displayName": "sandbox",
+  "description": "",
+  "publisher": "BlueSilverCat",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "sandbox.enclose",
+        "title": "Enclose",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.insertDate",
+        "title": "InsertDate",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.insertRandomNumber",
+        "title": "InsertRandomNumber",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.toCamelCase",
+        "title": "toCamelCase",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.toPascalCase",
+        "title": "toPascalCase",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.toSnakeCase",
+        "title": "toSnakeCase",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.toChainCase",
+        "title": "toChainCase",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.highlight",
+        "title": "highlight",
+        "category": "sandbox"
+      },
+      {
+        "command": "sandbox.getCommands",
+        "title": "getCommands",
+        "category": "sandbox"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.47.0",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.0",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "mocha": "^7.1.2",
+    "typescript": "^3.8.3",
+    "vscode-test": "^1.3.0"
+  }
+}
